@@ -1,5 +1,5 @@
 <template>
-  <div class="px-2 py-4 min-h-screen">
+  <div class="px-2 py-4 min-h-screen m-auto max-w-5xl">
     <div class="h-full flex flex-col space-y-6">
       <!-- <Navbar /> -->
       <h1 class="text-4xl text-yellow-700">
