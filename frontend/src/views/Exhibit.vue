@@ -17,7 +17,7 @@
       </div>
 
       <div v-if="state.entry.type === 'video'">
-        <video controls class="w-full">
+        <video controls class="w-full" :poster="state.entry.poster">
           <source :src="state.entry.src" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -152,5 +152,10 @@ export default {
 }
 .aspect-ratio-pdf >>> iframe, .aspect-ratio >>> iframe {
   position: absolute; width: 100%; height: 100%; left: 0; top: 0;
+}
+
+ /* purgecss ignore */
+video[poster] {
+  object-fit: cover;
 }
 </style>
