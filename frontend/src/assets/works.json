@@ -1,59 +1,60 @@
 [
   {
-    "title": "Some Gorjius Theatre Project",
+    "slug": "thats-what-i-thought-you-wanted",
+    "title": "That's What I Thought You Wanted",
     "authors": [
-      "Cole Hollant",
-      "Stylle Mei"
+      "Kate Williams"
     ],
-    "description": "Ah, this is a tale of how I am feeling these days. It's really good, and I think that the texture within the film really demonstrate how close I am to losin it",
-    "src": "https://cole-hollant-objects.nyc3.cdn.digitaloceanspaces.com/open-invitation/socks-1.jpeg",
-    "alt": "ugh"
+    "description": "This piece very much surrounds this ‘search-for-self.’ The majority of my college experience has been centered around unlearning societal standards in order to understand my own racial identity and what being Chinese means to me. I believe that one’s ‘search-for-self’ does not have any finite ending. Within this piece we see an exploration of the physicality of identity that is also representative of the nuances of emotions occurring underneath the skin.",
+    "src": "https://cole-hollant-objects.nyc3.cdn.digitaloceanspaces.com/open-invitation/ThatsWhatIThoughtYouWanted/thats-what-i-thought-you-wanted.mp4",
+    "type": "video",
+    "alt": "That's What I Thought You Wanted video", 
+    "banner": "https://cole-hollant-objects.nyc3.cdn.digitaloceanspaces.com/open-invitation/ThatsWhatIThoughtYouWanted/banner.png",
+    "bio": "My name is Kate Williams. I love to dance, cry, play dress-up, smoosh make-up on my face, and talk with my friends for hours upon hours.",
+    "other": "Thank you to Jack Ferver, Jean Churchill, Soouleymane Badolo, Thomas Keenan, Rob Culp, Akobi, Phil + Anna!!!"
   },
   {
-    "title": "Closed On Sunday",
+    "slug": "speak-no-evil",
+    "title": "Speak No Evil",
     "authors": [
-      "Nikki Francious"
+      "Sondai NaNaBuluku",
+      "Joshua D. Maldonaldo"
     ],
-    "description": "I was scrolling through twitter when I was doing this, and I just saw some kanye meme, so this is all I really have to offer here.",
-    "src": "https://cole-hollant-objects.nyc3.cdn.digitaloceanspaces.com/open-invitation/frog-1.jpeg",
-    "alt": "ugh"
+    "description": "Speak No Evil is a piece inspired by Augusto Boal's Theatre of the Oppressed, most significantly his ideas with Newspaper Theatre. I haven't talked to my dear friend since the quarantine began and by the time I finally had the opportunity to talk to him, he was already back home. He was working, still is working in fact, at a retirement home near his house and told me some personal experiences about the stresses of his environment. What does the news choose to share and have you ever considered possibilities that aren't always visible?",
+    "src": "https://www.youtube.com/watch?v=jtYJYMMgQVk",
+    "alt": "Speak No Evil Video Embed",
+    "type": "iframe",
+    "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jtYJYMMgQVk\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" style=\"position: absolute; width: 100%; height: 100%; left: 0; top: 0;\" allowfullscreen></iframe>",
+    "bio": "Sondai NaNaBuluku (Sound Engineer) - Sondai is a graduating Bard Theatre & Performance major who aspires to be a Playwright. He will be attending the New York University's Steinhardt School for Theatre Education and hopes to go on to create transformative work that brings insight, levity and a sense of self discovery into the lives of everyone watching/reading. \"It's important to love each other even if it feels like we can't.\"<br><br>Joshua D. Maldonaldo - Joshua is a graduating Bard Literature major who is a part of the Bard MAT program so he will be back for another year in order to obtain his Bachelor's as well as his Master of Arts in Teaching degree. He is thrilled to be able to tell people something that they may never have heard or thought about and hopes that people take this inquisitiveness home with them.",
+    "banner": "https://cole-hollant-objects.nyc3.cdn.digitaloceanspaces.com/open-invitation/SpeakNoEvil/banner.png",
+    "other": "Music Featured in Piece:<br/>Caged Bird's Ballad by Ajani NaNaBuluku<br/>Ogun Spazzing The Fuck Out by Ajani NaNaBuluku<br/>The Revolution Will Not Be Televised by Gil-Scott Heron"
   },
   {
-    "title": "Jan Dé-Frangiu",
+    "slug": "while-the-buildings-swim-us-all-away",
+    "title": "While the Buildings Swim Us All Away",
     "authors": [
-      "Cole Hollant",
-      "Stylle Mei"
+      "Charlotte Foreman"
     ],
-    "description": "Hungry, hungry, hungry. I wanna eat chips, I like chips a lot. As a matter of fact, even the shittiest chips (barbecue) may be better than writing filler text.",
-    "src": "https://cole-hollant-objects.nyc3.cdn.digitaloceanspaces.com/open-invitation/frog-2.jpeg",
-    "alt": "ugh"
+    "description": "A lot of people don’t know that most of what America considers “Florida”– the tri-county area of Miami-Dade, Broward, & Palm Beach – was underwater before it was developed. The unadulterated marshland of the Everglades flooded everything south of Orlando. On some days, so many wading birds crowded the air above that you couldn’t even see the sky. Fast forward about a century, & half of the marsh has been drained with the help of dredges, levees, & thousands of miles of canals. Fort Lauderdale is the spring break Mecca of America & Miami is as glamorous as ever, with its colossal royal palms & Art Deco, its speedboats & Rolls Royces on South Beach. 90% of the wading birds are gone, but the snowbirds from the northeast, biding out retirement on the beach, have replaced them.<br>Florida lies in the deep south, with its antebellum houses, matronly willows & small-town Walmarts. The strange thing is, the longer you travel down the coast on I-95 towards Miami, the more it becomes a kind of hot northeast, a melting pot of people & politics. Of cafecitos & health food stores, of Jai Alai & luxury apartments, yoga studios & Bernie stickers. It’s as if someone cramped all of America into one, long, hot state & set the birds free.<br>In a journal documenting his exploration of the St. John’s River & East Florida, American naturalist William Bartram writes, “...being placed so near the great savanna, the attention is quickly drawn off, and wholly engaged in the contemplation of the unlimited, varied, and truly astonishing native wild scenes of landscape and perspective, there exhibited: how is the mind agitated and bewildered, at being thus, as it were, placed on the borders of a new world!” Indeed, to travel through Florida is to discover a different world, each mile you pass through it. With my notebook & loved ones in the car, I set out into the drained marsh prairies of America’s problem child, to try to understand how she came to be.",
+    "src": "https://cole-hollant-objects.nyc3.cdn.digitaloceanspaces.com/open-invitation/WhileTheBuildingsSwimUsAllAway/While-the-Buildings-Swim-Us-All-Away.pdf",
+    "alt": "PDF of selected poems",
+    "type": "pdf",
+    "iframe": "<iframe src=\"https://cole-hollant-objects.nyc3.cdn.digitaloceanspaces.com/open-invitation/WhileTheBuildingsSwimUsAllAway/While-the-Buildings-Swim-Us-All-Away.pdf#zoom=Fit\" width=\"510\" height=\"660\" frameborder=\"0\" id=\"content\" style=\"position: absolute; width: 100%; height: 100%; left: 0; top: 0;\" allowfullscreen></iframe>",
+    "bio": "Charlotte Foreman is a South Florida native who learned about winter, for better or worse, when she moved to New York to attend Bard College in pursuit of her undergraduate degree. She received her BFA in Written Arts in May 2020, and hopes to move to Austin, Texas in the fall to be warm again and work with AmeriCorps to improve family and early childhood literacy. This, of course, in addition to maintaining her poetic practice. The following selection of poems are excerpted from her Senior Project, While the Buildings Swim Us All Away.",
+    "banner": "https://cole-hollant-objects.nyc3.cdn.digitaloceanspaces.com/open-invitation/WhileTheBuildingsSwimUsAllAway/banner.jpg"
   },
   {
-    "title": "Some Old shit",
+    "slug": "all-things-unholy",
+    "title": "All Things Unholy",
     "authors": [
-      "Stylle Mei"
+      "Lola Buncher"
     ],
-    "description": "Theoretically this is old",
-    "src": "https://cole-hollant-objects.nyc3.cdn.digitaloceanspaces.com/open-invitation/frog-2.jpeg",
-    "alt": "ugh"
-  },
-  {
-    "title": "Some Other Old shit",
-    "authors": [
-      "Loruum Eipsum"
-    ],
-    "description": "This is also maybe old I guess",
-    "src": "https://cole-hollant-objects.nyc3.cdn.digitaloceanspaces.com/open-invitation/frog-2.jpeg",
-    "alt": "ugh"
-  },
-  {
-    "title": "Modus Geriatrus",
-    "authors": [
-      "Loruum Eipsum",
-      "John Alveria"
-    ],
-    "description": "Absolutely old, you already know",
-    "src": "https://cole-hollant-objects.nyc3.cdn.digitaloceanspaces.com/open-invitation/frog-2.jpeg",
-    "alt": "ugh"
+    "description": "“All Things Unholy” is a short animated film which follows a single mother, Sage, trying to raise the incarnation of Satan in a small Christian town. She grapples with the perception of her son and wonders how to provide him with the best life  that she can.  For Sage, it is unclear where her son belongs but, ultimately, she is forced to make a great sacrifice to keep him safe. This film examines what it means to be “other” and how that may affect a family.  This project is an exploration of unconditional, maternal love, asking the question, how far can that love be pushed? I wondered if something as impenetrable as a familial bond  has a breaking point, and if so, how is that embodied? This film attempts to deconstruct the binaries of good and evil, forcing the audience to sympathize with the physical embodiment of evil, as he tries his best to do right and assimilate into a world that is not his own.  “All Things Unholy” lives in a world of heightened circumstance. It explores relatively universal themes such as disruption, isolation and sacrifice while taking them to the utmost extreme.",
+    "src": "https://vimeo.com/414293904",
+    "alt": "All Things Unholy Video Embed",
+    "type": "iframe",
+    "iframe": "<div style=\"padding:56.25% 0 0 0;position:relative;\"><iframe src=\"https://player.vimeo.com/video/414293904?title=0&byline=0&portrait=0\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe></div><script src=\"https://player.vimeo.com/api/player.js\"></script>",
+    "bio": "Lola Buncher is a Brooklyn based artist and recent graduate of Bard College. She completed her BA as a joint major in the divisions of film production and studio arts. While attending Bard, Lola co-headed the on campus comedy group, BRAD, for three years and has written and performed in multiple live productions through the club.<br>Outside of her artistic pursuits at Bard, Lola has done stand-up comedy for the past 6 years, and has been booked to perform at clubs including Gotham, Eastville and more. She has also trained with groups such as Secret City and the Upright Citizen’s Brigade. You can find her on <a class=\"underline text-indigo-700\" href=\"https://www.instagram.com/bolaluncher/\" target=\"_blank\">Instagram</a> or <a class=\"underline text-indigo-700\" href=\"https://twitter.com/bolaluncher/\" target=\"_blank\">Twitter</a> @bolaluncher.",
+    "banner": "https://cole-hollant-objects.nyc3.cdn.digitaloceanspaces.com/open-invitation/AllThingsUnholy/banner.jpg"
   }
 ]

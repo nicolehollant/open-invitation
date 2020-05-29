@@ -10,9 +10,14 @@
       :description="card.description"
       :src="card.src"
       :alt="card.alt"
+      :type="card.type"
+      :iframe="card.iframe || null"
+      :banner="card.banner"
+      :bio="card.bio"
+      :slug="card.slug"
     />
   </div>
-  <div class="hidden sm:grid grid-cols-3">
+  <div class="hidden sm:grid grid-cols-2">
     <ExhibitionCard 
       class="flex-shrink-0"
       v-for="card in value" 
@@ -22,6 +27,11 @@
       :description="card.description"
       :src="card.src"
       :alt="card.alt"
+      :type="card.type"
+      :iframe="card.iframe || null"
+      :banner="card.banner"
+      :bio="card.bio"
+      :slug="card.slug"
     />
   </div>
 </div>

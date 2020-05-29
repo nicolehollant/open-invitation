@@ -8,7 +8,7 @@
       <h2 class="text-xl font-semibold text-yellow-900">
         Featured Works
       </h2>
-      <Carousel :value="works.slice(0, 3)" />
+      <Carousel :value="works.slice(0, 4)" />
       <h2 class="text-xl font-semibold text-yellow-900">
         Archive
       </h2>
@@ -17,7 +17,8 @@
         About Us
       </h2>
       <div class="flex flex-col space-y-8 divide-gray-300 my-2 bg-white rounded-xl p-4 shadow-md">
-        We are Open Invitation! We do things in theater? Idk really, but Anna and Phil are definitely involved. Other than that? Who's to say!!!
+        <img class="w-64 m-auto" src="@/assets/logo.png" alt="open invitation logo">
+        <p>We are Open Invitation! We do things in theater? Idk really, but Anna and Phil are definitely involved. Other than that? Who's to say!!!</p>
       </div>
       <footer>
         <p class="text-center text-xs font-semibold uppercase text-gray-500">
