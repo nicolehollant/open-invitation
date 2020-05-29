@@ -17,6 +17,7 @@
 
 <script>
 export default {
+  name: "Slider",
   data() {
     return {
       val: null

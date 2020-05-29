@@ -51,6 +51,7 @@
 
 <script>
   export default {
+    name: "Icon",
     props: {
       icon: {
         type: String,

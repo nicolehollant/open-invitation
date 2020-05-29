@@ -19,6 +19,7 @@
 
 <script>
 export default {
+  name: "TextInput",
   props: {
     value: {
       type: String,

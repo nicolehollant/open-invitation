@@ -1,15 +1,21 @@
 import VueCompositionApi from '@vue/composition-api'
 import PortalVue from 'portal-vue'
-Vue.use(PortalVue)
-Vue.use(VueCompositionApi)
 import '@/assets/css/tailwind.css'
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
 import './registerServiceWorker'
+import { useSupercharge } from '@/composables'
+import ClickOutside from 'vue-click-outside'
+
+Vue.directive('on-click-outside', ClickOutside)
 
 Vue.config.productionTip = false
+Vue.use(PortalVue)
+Vue.use(VueCompositionApi)
+
+useSupercharge()
 
 new Vue({
   router,

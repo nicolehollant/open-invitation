@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ul class="flex flex-col space-y-4 sm:space-y-8 divide-gray-300 my-2 bg-white rounded-xl p-2 shadow-md">
+    <ul class="flex flex-col space-y-4 sm:space-y-8 divide-gray-300 my-2 bg-yellow-100 rounded-xl p-2 shadow-md">
       <li 
         v-for="item in value" 
         :key="item.title"

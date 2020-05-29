@@ -4,7 +4,7 @@
     @keydown.space="$router.push(`/exhibit/${slug}`)"
     @keydown.enter="$router.push(`/exhibit/${slug}`)"
     tabindex="0"
-    class="cursor-pointer group m-4 sm:m-2 lg:m-4 rounded-xl bg-white overflow-hidden shadow-md focus:shadow-outline focus:outline-none"
+    class="cursor-pointer group m-4 sm:m-2 lg:m-4 rounded-xl bg-yellow-100 overflow-hidden shadow-md focus:shadow-outline focus:outline-none"
   >
     <img 
       class="sepia w-full object-cover h-64 transition-all duration-500" 
@@ -12,7 +12,7 @@
       :alt="[title, 'banner image'].join(' ')"
     >
     <div class="space-y-2 p-4">
-      <h3 class="serif text-xl font-bold text-orange-700 leading-tight">
+      <h3 class="serif text-xl font-bold text-orange-700 group-hover:text-blue-700 group-focus:text-blue-700 leading-tight">
         {{ title }}
       </h3>
       <p class="text-sm font-medium text-gray-700 leading-tight">{{ authors.join(', ') }}</p>

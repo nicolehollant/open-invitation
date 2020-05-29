@@ -10,6 +10,7 @@
 
 <script>
 export default {
+  name: "Toggle",
   props: {
     value: {
       type: Boolean,

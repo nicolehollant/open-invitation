@@ -22,11 +22,13 @@ export default {
   font-family: 'Roboto Slab', 'EB Garimond', Georgia, 'Times New Roman', Times, serif;
 }
 html {
-  @apply bg-gray-200
+  @apply bg-yellow-300
+  /* @apply bg-gray-200 */
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  @apply min-h-screen border-t-4 border-blue-400 text-gray-900
 }
 </style>
