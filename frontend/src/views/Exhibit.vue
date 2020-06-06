@@ -17,7 +17,7 @@
         </p>
       </div>
 
-      <div class="bg-yellow-100 p-4 rounded-lg shadow-md">
+      <div class="bg-yellow-100 p-1 sm:p-4 rounded-lg shadow-md" id="media-container">
         <div v-if="state.entry.type === 'video'">
           <video controls class="w-full" frameborder="0" :poster="state.entry.poster">
             <source :src="state.entry.src" type="video/mp4">
@@ -28,8 +28,14 @@
           <div class="aspect-ratio" v-html="state.entry.iframe"></div>
         </div>
         <div v-else-if="state.entry.type === 'pdf'" class="relative">
-          <div class="aspect-ratio-pdf" v-html="state.entry.iframe"></div>
-          <button class="absolute right-0 bottom-0 -m-2 p-2 bg-yellow-700 rounded-full shadow focus:outline-none focus:shadow-outline" @click="fullscreen">
+          <div id="content"
+            :style="isFullscreen ? 'height: 100vh': 'height: 80vh'"
+          >
+            <div class="aspect-ratio-pdf" :style="isFullscreen ? 'height: 100vh': 'height: 80vh'">
+              <pdf :src="state.entry.src" />
+            </div>
+          </div>
+          <button class="absolute right-0 bottom-0 -m-2 p-2 bg-yellow-700 rounded-full shadow focus:outline-none focus:shadow-outline" @click="() => fullscreen('#content')">
             <Icon icon="fullscreen" size="8" class="text-white" />
           </button>
         </div>
@@ -41,7 +47,6 @@
 
       <div class="bg-yellow-100 space-y-16 p-4 rounded-lg shadow-md">
 
-      
         <div class="flex flex-col-reverse sm:grid sm:grid-cols-2 sm:gap-6 sm:items-center">
           <div class="space-y-2">
             <h3 class="serif text-xl font-semibold text-yellow-900">
@@ -83,20 +88,28 @@
 </template>
 
 <script>
+import { useFullscreen } from '@/composables/useFullscreen'
 import useRoot from '@/composables/useRoot'
+import pdf from '@/components/PDF'
 import { Icon } from '@/components/basic'
 import { reactive, watch, onMounted } from '@vue/composition-api'
 export default {
   name: "Exhibit",
   components: {
-    Icon
+    Icon,
+    pdf
   },
   setup() {
+    const { isFullscreen } = useFullscreen()
     const { injectRoot } = useRoot()
     const { $router, $route } = injectRoot()
     
     const works = require('@/assets/works.json')
-    const state = reactive({  entry: {} })
+    const state = reactive({ 
+      entry: {},
+      pdfSrc: '',
+      numPages: undefined,
+    })
 
     const redirect = () => $router.push('/')
 
@@ -106,6 +119,12 @@ export default {
       const entry = works.find(a => a.slug === slug)
       if (!entry) redirect()
       state.entry = entry
+      // if(state.entry.type === 'pdf') {
+      //   state.pdfSrc = pdf.createLoadingTask(state.entry.src)
+      //   state.pdfSrc.promise.then(pdf => {
+      //     state.numPages = pdf.numPages
+      //   })
+      // }
     }
 
     watch(
@@ -116,8 +135,8 @@ export default {
     )
     loadExhibit()
 
-    const fullscreen = () => {
-      document.getElementById('content').requestFullscreen()
+    const fullscreen = (querySelector) => {
+      document.querySelector(querySelector).requestFullscreen()
     }
 
     const getAuthors = (authors, short=true) => {
@@ -133,7 +152,7 @@ export default {
       document.body.scrollTop = document.documentElement.scrollTop = 0;
     })
 
-    return { state, works, getAuthors, fullscreen }
+    return { state, works, getAuthors, fullscreen, isFullscreen }
   }
 }
 </script>
@@ -147,9 +166,8 @@ export default {
 }
 .aspect-ratio-pdf {
   position: relative;
-  width: 100%;
-  height: 80vh;
   margin: auto;
+  width: 100%;
 }
 .aspect-ratio-pdf iframe, .aspect-ratio iframe {
   position: absolute; width: 100%; height: 100%; left: 0; top: 0;
@@ -161,5 +179,15 @@ export default {
  /* purgecss ignore */
 video[poster] {
   object-fit: cover;
+}
+
+.snap-y {
+  scroll-snap-type: y proximity;
+}
+.snap-start {
+  scroll-snap-align: start;
+}
+.snap-center {
+  scroll-snap-align: center;
 }
 </style>
