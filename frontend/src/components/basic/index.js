@@ -6,6 +6,7 @@ import Select from './Select.vue'
 import Icon from './Icon.vue'
 import AppFooter from './AppFooter.vue'
 import Navbar from './Navbar.vue'
+import Card from './Card.vue'
 
 export {
   Slider,
@@ -15,5 +16,6 @@ export {
   Select,
   Icon,
   AppFooter,
-  Navbar
+  Navbar,
+  Card,
 }

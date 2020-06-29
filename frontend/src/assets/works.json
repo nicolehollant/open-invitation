@@ -12,7 +12,11 @@
     "alt": "That's What I Thought You Wanted video", 
     "banner": "https://cole-hollant-objects.nyc3.cdn.digitaloceanspaces.com/open-invitation/ThatsWhatIThoughtYouWanted/banner.png",
     "bio": "My name is Kate Williams. I love to dance, cry, play dress-up, smoosh make-up on my face, and talk with my friends for hours upon hours.",
-    "other": "Thank you to Jack Ferver, Jean Churchill, Soouleymane Badolo, Thomas Keenan, Rob Culp, Akobi, Phil + Anna!!!"
+    "other": "Thank you to Jack Ferver, Jean Churchill, Soouleymane Badolo, Thomas Keenan, Rob Culp, Akobi, Phil + Anna!!!",
+    "headshot": "https://cole-hollant-objects.nyc3.cdn.digitaloceanspaces.com/open-invitation/ThatsWhatIThoughtYouWanted/author.png",
+    "links": [ 
+      "<li><a class=\"break-all underline text-indigo-700\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.blacktranstravelfund.com/donate\">blacktranstravelfund.com/donate</a><p>The Black Trans Travel Fund is a grassroots, mutual aid based organization developed for the purpose of providing Black transgender  women with the financial resources necessary  for them to be  able to self-determine and access their safest travel options.</p></li>"
+    ]
   },
   {
     "slug": "speak-no-evil",
@@ -26,9 +30,19 @@
     "alt": "Speak No Evil Video Embed",
     "type": "iframe",
     "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jtYJYMMgQVk\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" style=\"position: absolute; width: 100%; height: 100%; left: 0; top: 0;\" allowfullscreen></iframe>",
-    "bio": "Sondai NaNaBuluku (Sound Engineer) - Sondai is a graduating Bard Theatre & Performance major who aspires to be a Playwright. He will be attending the New York University's Steinhardt School for Theatre Education and hopes to go on to create transformative work that brings insight, levity and a sense of self discovery into the lives of everyone watching/reading. \"It's important to love each other even if it feels like we can't.\"<br><br>Joshua D. Maldonaldo - Joshua is a graduating Bard Literature major who is a part of the Bard MAT program so he will be back for another year in order to obtain his Bachelor's as well as his Master of Arts in Teaching degree. He is thrilled to be able to tell people something that they may never have heard or thought about and hopes that people take this inquisitiveness home with them.",
+    "bio": "<span class=\"font-medium\">Sondai NaNaBuluku</span> (Sound Engineer) - Sondai is a graduating Bard Theatre & Performance major who aspires to be a Playwright. He will be attending the New York University's Steinhardt School for Theatre Education and hopes to go on to create transformative work that brings insight, levity and a sense of self discovery into the lives of everyone watching/reading. \"It's important to love each other even if it feels like we can't.\"<br><br><span class=\"font-medium\">Joshua D. Maldonaldo</span> - Joshua is a graduating Bard Literature major who is a part of the Bard MAT program so he will be back for another year in order to obtain his Bachelor's as well as his Master of Arts in Teaching degree. He is thrilled to be able to tell people something that they may never have heard or thought about and hopes that people take this inquisitiveness home with them.",
     "banner": "https://cole-hollant-objects.nyc3.cdn.digitaloceanspaces.com/open-invitation/SpeakNoEvil/banner.png",
-    "other": "Music Featured in Piece:<br/>Caged Bird's Ballad by Ajani NaNaBuluku<br/>Ogun Spazzing The Fuck Out by Ajani NaNaBuluku<br/>The Revolution Will Not Be Televised by Gil-Scott Heron"
+    "other": "Music Featured in Piece:<br/>Caged Bird's Ballad by Ajani NaNaBuluku<br/>Ogun Spazzing The Fuck Out by Ajani NaNaBuluku<br/>The Revolution Will Not Be Televised by Gil-Scott Heron",
+    "headshot": "https://cole-hollant-objects.nyc3.cdn.digitaloceanspaces.com/open-invitation/SpeakNoEvil/authors.JPG#object-fill",
+    "links": [
+      "<li class=\"list-disc list-inside\"><a class=\"break-all underline text-indigo-700\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.gofundme.com/f/help-rebuild-elenas-store\">https://www.gofundme.com/f/help-rebuild-elenas-store</a> - A Bard student's mother's store got looted and this is helping her rebuild the shop!</li>",
+      "<li class=\"list-disc list-inside\"><a class=\"break-all underline text-indigo-700\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.gofundme.com/f/georgefloyd\">https://www.gofundme.com/f/georgefloyd</a></li>",
+      "<li class=\"list-disc list-inside\"><a class=\"break-all underline text-indigo-700\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.twocc.us/donate/\">https://www.twocc.us/donate/</a></li>",
+      "<li class=\"list-disc list-inside\"><a class=\"break-all underline text-indigo-700\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.twocc.us/donate/\">https://www.twocc.us/donate/</a></li>",
+      "<li class=\"list-disc list-inside\"><a class=\"break-all underline text-indigo-700\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.gofundme.com/f/9v4q2-justice-for-breonna-taylor\">https://www.gofundme.com/f/9v4q2-justice-for-breonna-taylor</a></li>",
+      "<li class=\"list-disc list-inside\"><a class=\"break-all underline text-indigo-700\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.gofundme.com/f/i-run-with-maud\">https://www.gofundme.com/f/i-run-with-maud</a></li>",
+      "<li class=\"list-disc list-inside\"><a class=\"break-all underline text-indigo-700\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.gofundme.com/f/official-gofundme-for-rayshard-brooks\">https://www.gofundme.com/f/official-gofundme-for-rayshard-brooks</a></li>"
+    ]
   },
   {
     "slug": "while-the-buildings-swim-us-all-away",
@@ -42,7 +56,11 @@
     "type": "pdf",
     "iframe": "<iframe src=\"https://cole-hollant-objects.nyc3.cdn.digitaloceanspaces.com/open-invitation/WhileTheBuildingsSwimUsAllAway/While-the-Buildings-Swim-Us-All-Away.pdf#zoom=Fit\" width=\"510\" height=\"660\" frameborder=\"0\" id=\"content\" style=\"position: absolute; width: 100%; height: 100%; left: 0; top: 0;\" allowfullscreen></iframe>",
     "bio": "Charlotte Foreman is a South Florida native who learned about winter, for better or worse, when she moved to New York to attend Bard College in pursuit of her undergraduate degree. She received her BFA in Written Arts in May 2020, and hopes to move to Austin, Texas in the fall to be warm again and work with AmeriCorps to improve family and early childhood literacy. This, of course, in addition to maintaining her poetic practice. The following selection of poems are excerpted from her Senior Project, While the Buildings Swim Us All Away.",
-    "banner": "https://cole-hollant-objects.nyc3.cdn.digitaloceanspaces.com/open-invitation/WhileTheBuildingsSwimUsAllAway/banner.jpg"
+    "banner": "https://cole-hollant-objects.nyc3.cdn.digitaloceanspaces.com/open-invitation/WhileTheBuildingsSwimUsAllAway/banner.jpg",
+    "headshot": "https://cole-hollant-objects.nyc3.cdn.digitaloceanspaces.com/open-invitation/WhileTheBuildingsSwimUsAllAway/author.png",
+    "links": [
+      "<li><a class=\"break-all underline text-indigo-700\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.instagram.com/fempowermia/?hl=en\">https://www.instagram.com/fempowermia/?hl=en</a><p>(F)empower is an anti-capitalist, anti-imperialist, Black feminist organization. Through their Community Bond Fund, they have been posting bond for those who can’t afford it since May 2019, in order to get them out of Miami-Dade jail cages. Their work to free the block is especially crucial now, with over 500 (reported) cases of COVID-19 amongst the incarcerated population and no state provision of PPE in the county’s correctional facilities.</p></li>"
+    ]
   },
   {
     "slug": "all-things-unholy",
@@ -55,7 +73,11 @@
     "alt": "All Things Unholy Video Embed",
     "type": "iframe",
     "iframe": "<div style=\"padding:56.25% 0 0 0;position:relative;\"><iframe src=\"https://player.vimeo.com/video/414293904?title=0&byline=0&portrait=0\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe></div><script src=\"https://player.vimeo.com/api/player.js\"></script>",
-    "bio": "Lola Buncher is a Brooklyn based artist and recent graduate of Bard College. She completed her BA as a joint major in the divisions of film production and studio arts. While attending Bard, Lola co-headed the on campus comedy group, BRAD, for three years and has written and performed in multiple live productions through the club.<br>Outside of her artistic pursuits at Bard, Lola has done stand-up comedy for the past 6 years, and has been booked to perform at clubs including Gotham, Eastville and more. She has also trained with groups such as Secret City and the Upright Citizen’s Brigade. You can find her on <a class=\"underline text-indigo-700\" href=\"https://www.instagram.com/bolaluncher/\" target=\"_blank\">Instagram</a> or <a class=\"underline text-indigo-700\" href=\"https://twitter.com/bolaluncher/\" target=\"_blank\">Twitter</a> @bolaluncher.",
-    "banner": "https://cole-hollant-objects.nyc3.cdn.digitaloceanspaces.com/open-invitation/AllThingsUnholy/banner.jpg"
+    "bio": "Lola Buncher is a Brooklyn based artist and recent graduate of Bard College. She completed her BA as a joint major in the divisions of film production and studio arts. While attending Bard, Lola co-headed the on campus comedy group, BRAD, for three years and has written and performed in multiple live productions through the club.<br>Outside of her artistic pursuits at Bard, Lola has done stand-up comedy for the past 6 years, and has been booked to perform at clubs including Gotham, Eastville and more. She has also trained with groups such as Secret City and the Upright Citizen’s Brigade. You can find her on <a class=\"break-all underline text-indigo-700\" href=\"https://www.instagram.com/bolaluncher/\" target=\"_blank\">Instagram</a> or <a class=\"break-all underline text-indigo-700\" href=\"https://twitter.com/bolaluncher/\" target=\"_blank\">Twitter</a> @bolaluncher.",
+    "banner": "https://cole-hollant-objects.nyc3.cdn.digitaloceanspaces.com/open-invitation/AllThingsUnholy/banner.jpg",
+    "headshot": "https://cole-hollant-objects.nyc3.cdn.digitaloceanspaces.com/open-invitation/AllThingsUnholy/author.jpg#object-top",
+    "links": [
+      "<li><a class=\"break-all underline text-indigo-700\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.gofundme.com/f/9v4q2-justice-for-breonna-taylor\">https://www.gofundme.com/f/9v4q2-justice-for-breonna-taylor</a></li>"
+    ]
   }
 ]

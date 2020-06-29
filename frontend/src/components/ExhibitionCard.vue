@@ -1,10 +1,11 @@
 <template>
-  <div 
+  <Card 
     @click="$router.push(`/exhibit/${slug}`)"
     @keydown.space="$router.push(`/exhibit/${slug}`)"
     @keydown.enter="$router.push(`/exhibit/${slug}`)"
     tabindex="0"
-    class="cursor-pointer group m-4 sm:m-2 lg:m-4 rounded-xl bg-yellow-100 overflow-hidden shadow-md focus:shadow-outline focus:outline-none"
+    :padded="false"
+    class="p-0 cursor-pointer group m-4 sm:m-2 lg:m-4 rounded-xl overflow-hidden focus:shadow-outline focus:outline-none"
   >
     <img 
       class="sepia w-full object-cover h-64 transition-all duration-500" 
@@ -18,7 +19,7 @@
       <p class="text-sm font-medium text-gray-700 leading-tight">{{ authors.join(', ') }}</p>
       <p class="text-gray-800 font-light leading-snug clamp-10">{{ description }}</p>
     </div>
-  </div>
+  </Card>
 </template>
 
 <script>

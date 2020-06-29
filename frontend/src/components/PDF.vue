@@ -1,5 +1,5 @@
 <template>
-<div class="w-full h-full bg-yellow-100" id="pdf--renderer">
+<div class="w-full h-full pdf-box" id="pdf--renderer">
   <div class="overflow-scroll snap-y-proximity relative w-max h-full m-auto flex justify-center" id="document-wrapper">
     <div class="relative top-0 space-y-3" v-if="ready" :key="pdfkey">
       <canvas 
@@ -128,5 +128,12 @@ export default {
 }
 .snap-center {
   scroll-snap-align: center;
+}
+
+.pdf-box {
+  @apply bg-white
+}
+.theme-yellow .pdf-box {
+  @apply bg-yellow-100
 }
 </style>

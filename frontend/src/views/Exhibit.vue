@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4 min-h-screen m-auto max-w-5xl">
+  <div class="px-2 py-4 min-h-screen m-auto max-w-5xl">
     <div class="h-full flex flex-col space-y-16">
       <div class="space-y-4">
         <!-- <h1 class="text-xl text-yellow-900">
@@ -17,7 +17,7 @@
         </p>
       </div>
 
-      <div class="bg-yellow-100 p-1 sm:p-4 rounded-lg shadow-md" id="media-container">
+      <Card id="media-container">
         <div v-if="state.entry.type === 'video'">
           <video controls class="w-full" frameborder="0" :poster="state.entry.poster">
             <source :src="state.entry.src" type="video/mp4">
@@ -42,10 +42,10 @@
         <div v-else>
           <p>hm, unknown media type</p>
         </div>
-      </div>
+      </Card>
 
 
-      <div class="bg-yellow-100 space-y-16 p-4 rounded-lg shadow-md">
+      <Card class="space-y-16 p-4">
 
         <div class="flex flex-col-reverse sm:grid sm:grid-cols-2 sm:gap-6 sm:items-center">
           <div class="space-y-2">
@@ -62,11 +62,19 @@
           >
         </div>
 
-        <div class="flex flex-col sm:grid sm:grid-cols-2 space-y-6 sm:space-y-0 sm:gap-6 sm:items-center">
+        <div class="flex flex-col space-y-6 sm:flex-row sm:space-y-0 sm:space-x-6 sm:items-center">
           <img 
-            class="block w-full object-cover h-16 sm:h-full shadow-md rounded-lg"
-            style="min-height: 16rem" 
-            src="https://assets.website-files.com/5bff8886c3964a992e90d465/5c00fa3ad82b40e853c9952f_hero-3.svg" 
+            class="block w-full h-32 sm:h-full shadow-md rounded-lg sm:mr-6 sm:w-1/2"
+            :class="{
+              'object-fill': state.entry.headshot.includes('#object-fill'),
+              'object-cover': !state.entry.headshot.includes('#object-fill'),
+              'object-top': state.entry.headshot.includes('#object-top'),
+              'object-bottom': state.entry.headshot.includes('#object-bottom'),
+              'object-left': state.entry.headshot.includes('#object-left'),
+              'object-right': state.entry.headshot.includes('#object-right'),
+            }"
+            style="min-height: 24rem; max-height: 32rem;" 
+            :src="state.entry.headshot || 'https://assets.website-files.com/5bff8886c3964a992e90d465/5c00fa3ad82b40e853c9952f_hero-3.svg'" 
             alt="picture of the authors"
           >
           <div class="space-y-2">
@@ -76,11 +84,20 @@
             <p class="text-gray-800 text-lg font-light leading-snug" v-html="state.entry.bio" />
           </div>
         </div>
-
-        <div v-if="state.entry.other" class="flex justify-center">
+        
+        <div v-if="state.entry.other" class="flex flex-col items-center">
           <div class="text-gray-700 text-center leading-relaxed" v-html="state.entry.other"></div>
         </div>
-      </div>
+
+        <div v-if="state.entry.links">
+          <h3 class="serif text-xl font-semibold text-yellow-900">
+            Consider Donating
+          </h3>
+          <ul class="text-gray-700 text-left leading-relaxed">
+            <div id="links" v-html="state.entry.links.reduce((a, c) => [a, c].join('\n'))"></div>
+          </ul>
+        </div>
+      </Card>
       
       <AppFooter />
     </div>
@@ -189,5 +206,8 @@ video[poster] {
 }
 .snap-center {
   scroll-snap-align: center;
+}
+#links >>> li {
+  @apply list-disc
 }
 </style>

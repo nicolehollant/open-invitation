@@ -3,7 +3,7 @@
     <div class="h-full flex flex-col space-y-6">
       <Navbar title="Get Involved!" />
       
-      <div class="flex flex-col space-y-8 divide-gray-300 my-2 bg-yellow-100 rounded-xl p-4 shadow-md">
+      <Card class="flex flex-col space-y-8">
         <div class="space-y-4">
           <h3 class="text-xl font-semibold text-blue-600">
             Want to get involved with Open Invitation 2020? 
@@ -47,7 +47,7 @@
             </p> 
           </div>
         </div>
-      </div>      
+      </Card>      
       <AppFooter />
     </div>
   </div>

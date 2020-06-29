@@ -1,4 +1,13 @@
 <template>
+<transition
+  appear
+  enter-active-class="transition-all transform duration-300 ease-out"
+  leave-active-class="transition-all transform duration-200 ease-in"
+  enter-class="opacity-50 scale-90"
+  enter-to-class="opacity-100 scale-100 translate-x-0"
+  leave-class="opacity-100 scale-100 translate-x-0"
+  leave-to-class="opacity-0 scale-0 translate-x-1/3"
+>
 <div>
   <div class="snap-x flex space-x-8 overflow-x-scroll sm:hidden">
     <ExhibitionCard 
@@ -35,6 +44,7 @@
     />
   </div>
 </div>
+</transition>
 </template>
 
 <script>

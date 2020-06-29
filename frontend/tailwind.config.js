@@ -9,7 +9,17 @@ module.exports = {
       './src/**/*.vue',
     ],
     options: {
-      whitelist: ['aspect-ratio', 'aspect-ratio-pdf', 'aspect-ratio*', 'underline', 'text-indigo-700'],
+      whitelist: [
+        'aspect-ratio', 
+        'aspect-ratio-pdf', 
+        'aspect-ratio*', 
+        'underline', 
+        'text-indigo-700', 
+        'list-disc', 
+        'list-inside',
+        'break-all',
+        'font-medium'
+    ],
     }
   },
   theme: {
