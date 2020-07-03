@@ -8,6 +8,12 @@ import store from './store'
 import './registerServiceWorker'
 import { useSupercharge } from '@/composables'
 import ClickOutside from 'vue-click-outside'
+import VueAnalytics from 'vue-analytics';
+
+Vue.use(VueAnalytics, {
+    id: 'UA-171584767-1',
+    router
+})
 
 Vue.directive('on-click-outside', ClickOutside)
 
