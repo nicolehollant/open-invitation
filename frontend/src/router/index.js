@@ -32,6 +32,10 @@ const routes = [
   {
     path: '/exhibit',
     redirect: '/'
+  },
+  {
+    path: '*',
+    redirect: '/'
   }
 ]
 
